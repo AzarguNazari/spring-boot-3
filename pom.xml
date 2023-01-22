@@ -11,9 +11,9 @@
 	</parent>
 
 	<groupId>com.kn</groupId>
-	<artifactId>spring-boot-3-demo</artifactId>
+	<artifactId>spring-boot-3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-3-demo</name>
+	<name>spring-boot-3</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
