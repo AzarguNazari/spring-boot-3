@@ -2,17 +2,17 @@ package com.kn.demo.controllers;
 
 import com.kn.demo.domains.Shipment;
 import com.kn.demo.services.ShipmentService;
-import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@AllArgsConstructor
 @RequestMapping("/v1/shipments")
 public class ShipmentController{
 
-    private final ShipmentService shipmentService;
+    @Autowired
+    private ShipmentService shipmentService;
 
     @GetMapping
     public List<Shipment> getAllShipments(){

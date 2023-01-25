@@ -3,20 +3,16 @@ package com.kn.demo.services;
 import com.kn.demo.domains.Shipment;
 import com.kn.demo.exceptions.InvalidShipmentException;
 import com.kn.demo.repositories.ShipmentRepository;
-import lombok.AllArgsConstructor;
-import lombok.extern.log4j.Log4j;
-import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-@AllArgsConstructor
-@Log4j2
 public class ShipmentService{
 
-    private final ShipmentRepository shipmentRepository;
+    @Autowired
+    private ShipmentRepository shipmentRepository;
 
     public List<Shipment> getAllShipments(){
         return shipmentRepository.findAll();

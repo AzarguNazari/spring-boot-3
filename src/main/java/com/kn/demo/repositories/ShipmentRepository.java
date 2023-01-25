@@ -2,6 +2,8 @@ package com.kn.demo.repositories;
 
 import com.kn.demo.domains.Shipment;
 import lombok.extern.log4j.Log4j2;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -9,8 +11,10 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Repository
-@Log4j2
 public class ShipmentRepository {
+
+    private final Logger log = LoggerFactory.getLogger(ShipmentRepository.class);
+
 
     private static final ConcurrentHashMap<String, Shipment> shipments = new ConcurrentHashMap<>();
 
