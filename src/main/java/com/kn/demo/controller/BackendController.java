@@ -1,4 +1,4 @@
-package com.kn.demo;
+package com.kn.demo.controller;
 
 import com.kn.demo.model.Person;
 import org.springframework.web.bind.annotation.*;
