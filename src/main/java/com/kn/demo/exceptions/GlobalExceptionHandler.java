@@ -21,14 +21,4 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         problemDetail.setProperty("timestamp", Instant.now());
         return problemDetail;
     }
-
-//    @ExceptionHandler(InvalidShipmentException.class)
-//    ErrorResponse handleBadShipmentException(InvalidShipmentException e) {
-//        return ErrorResponse.builder(e, HttpStatus.BAD_REQUEST, e.getMessage())
-//                .title("Bad shipment data")
-//                .type(URI.create("https://api.shipments.kn.com/errors/not-found"))
-//                .property("Service", "Core Shipment Service")
-//                .property("timestamp", Instant.now())
-//                .build();
-//    }
 }
