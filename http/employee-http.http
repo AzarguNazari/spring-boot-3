@@ -1,0 +1,9 @@
+###
+# @name postEmailEvent
+POST {{url}}/api/employees
+Content-Type: application/json
+
+{
+  "id": 1234,
+  "email": "something@something.com"
+}
