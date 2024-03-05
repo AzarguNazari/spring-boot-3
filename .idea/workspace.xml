@@ -5,33 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="481b6a4e-f88a-443f-b85a-7c3ddeacab51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/auto-commiter.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/EmployeeEmailUpdated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/EmployeeNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/employee-http.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/http-client.env.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kn/demo/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/RdbApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kn/demo/SpringBoot3DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/src/test/java/com/kn/demo/SpringBoot3DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kn/demo/ConfigProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kn/demo/MyApp.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/spring/demo/domains/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/spring/demo/domains/employee/EmployeeEmailUpdated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/spring/demo/handlers/EmployeeEmailUpdatedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/spring/demo/handlers/EventHandlerChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/spring/demo/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/spring/demo/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/spring/demo/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/EmployeeEmailUpdated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/EmployeeNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/spring/demo/EmployeeNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/spring/demo/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/spring/demo/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/rdb/src/main/java/com/kn/demo/RdbApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/src/main/java/com/spring/demo/RdbApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/rdb/src/test/java/com/kn/demo/SpringBoot3DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/src/test/java/com/spring/demo/SpringBoot3DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/rdb/target/classes/com/kn/demo/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/target/classes/com/kn/demo/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/rdb/target/classes/com/kn/demo/EmployeeEmailUpdated.class" beforeDir="false" afterPath="$PROJECT_DIR$/databases/rdb/target/classes/com/kn/demo/EmployeeEmailUpdated.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +55,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="HTTP Public Environment File" />
         <option value="Record" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -120,7 +112,7 @@
       <recent name="$PROJECT_DIR$/databases/h2" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RdbApp">
+  <component name="RunManager" selected="HTTP Request.employee-http | postEmailEvent">
     <configuration name="employee-http | postEmailEvent" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/employee-http.http" requestIdentifier="postEmailEvent" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -137,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RdbApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rdb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.demo.RdbApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RdbApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="rdb" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kn.demo.RdbApp" />
@@ -147,6 +152,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.employee-http | postEmailEvent" />
+        <item itemvalue="Spring Boot.RdbApp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709649984097</updated>
-      <workItem from="1709649985549" duration="2276000" />
+      <workItem from="1709649985549" duration="4801000" />
     </task>
     <servers />
   </component>
